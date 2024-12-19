@@ -1,0 +1,43 @@
+{
+  "name": "frontend-vuejs",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.1",
+    "events": "^3.3.0",
+    "global": "^4.4.0",
+    "process": "^0.11.10",
+    "secure-remote-password": "^0.3.1",
+    "stream-browserify": "^3.0.0",
+    "tw-elements": "^2.0.0",
+    "util": "^0.12.5",
+    "vite-plugin-vue-devtools": "^7.6.7",
+    "vue": "^3.5.13",
+    "vue-router": "^4.4.5",
+    "vue-sweetalert2": "^5.0.11"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@eslint/js": "^9.14.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.14.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.16",
+    "vite": "^6.0.1"
+  }
+}

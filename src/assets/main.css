@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@tailwind base;
+
+@layer base {
+  html {
+    @apply text-surface;
+    @apply bg-white;
+  }
+  html.dark {
+    @apply text-neutral-50;
+    @apply bg-body-dark;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply leading-[1.6];
+}
+#app {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.small-swal-popup {
+  width: 300px !important; /* Set the desired width */
+  padding: 1rem !important; /* Adjust padding */
+  font-size: 14px !important; /* Reduce font size */
+}
+
+.small-swal-title {
+  font-size: 16px !important; /* Smaller title font size */
+}
+
+.small-swal-content {
+  font-size: 12px !important; /* Smaller content font size */
+}
